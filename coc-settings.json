@@ -1,0 +1,17 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "graphql", "html", "yaml",  "json", "python"],
+  "snippets.ultisnips.directories":
+  [
+    "UltiSnips",
+    "~/.config/nvim/utils/snips"
+  ],
+  "eslint.run": "onSave",
+  "eslint.autoFixOnSave": true,
+  "eslint.format.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.codeActionsOnSave.mode": "all",
+
+  "prettier.formatterPriority": -1,
+  "prettier.eslintIntegration": true,
+  "prettier.tslintIntegration": true
+}

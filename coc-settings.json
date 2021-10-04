@@ -13,5 +13,14 @@
 
   "prettier.formatterPriority": -1,
   "prettier.eslintIntegration": true,
-  "prettier.tslintIntegration": true
+  "prettier.tslintIntegration": true,
+
+  // explorer
+  "explorer.width": 30,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.previewAction.onHover": false,
+  "explorer.keyMappings.global": {
+    "<cr>": ["expandable?", "expand", "open"],
+    "v": "open:vsplit"
+  }
 }
